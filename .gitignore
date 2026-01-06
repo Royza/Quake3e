@@ -1,4 +1,6 @@
-build/
+build/*
+# Keep a placeholder so the directory exists in the repo; built artifacts remain ignored.
+!build/.gitkeep
 output/
 .vs/
 .vscode/
